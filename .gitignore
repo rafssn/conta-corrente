@@ -1,0 +1,97 @@
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+*/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# Visual Studio artifacts
+.vscode
+.vscode/*
+.vs
+.vs/*
+.gradle
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+bin
+obj
+release
+debug
+Debug
+Release
+obj/*
+bin/*
+release/*
+debug/*
+Debug/*
+Release/*
+*.tmp
+*.user
+*.suo
+*.vsp
+*.csproj.VisualState.xml
+*.exe
+*.pdb
+*.vspscc
+*.vssscc
+*.Publish.xml
+*.cache
+*.dgml
+*.props
+*.targets
+
+# Resharper artifacts
+_ReSharper.*
+*.resharper
+
+# Tests
+*.testsettings
+*.vsmdi
+*.testsettings
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+logs
+logs/*
+uploads
+uploads/*
+
+deployment.txt
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+
+# merge
+*.orig
+#A file with some secrets for testing purposes
+app.Secrets.json
+out/
+*.log
+
+.sample
+
+# BenchmarkDotNet
+
+BenchmarkDotNet.Artifacts
