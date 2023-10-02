@@ -27,3 +27,9 @@ Entre as funcionalidades criadas estão:
 - Criar movimentações (saque e depósito)
 - Validação de saldo para saque
 - Validação de usuário para saque
+
+Acerca dos testes
+Não foi possível completar os testes pois dado o período de tempo não consegui terminar as tarefas para finalizá-los.
+Mas minha estratégia seria criar testes de integrações completos e que validassem a aplicação de maneira confiável. Para uma aplicação tão simples e que não possui serviços de grande manuseio uma cobertura de integração para o BackEnd me parece confiável o suficiente para validar grande parte da aplicação.
+Os testes unitários fariam bastante sentido no módulo mais crítico do sistema que seria as movimentações. A união de testes unitários e de integração nesse módulo validaria consideravelmente nosso projeto.
+Os testes de Front-Back com selenium elevariam a confiabilidade dos nossos projetos a um nível acima. Infelizmente este foi o que mais me distanciei por não ter finalizado o front por completo, mas traria confiabilidade completa acerca dos módulos.
